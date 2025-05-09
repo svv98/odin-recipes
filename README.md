@@ -6,3 +6,5 @@ Key learnings I had with this first project:
 - A better understanding of web structure and the importance of clear, simple navigation.
 - A hands-on approach to applying basic HTML tags in a real-world project.
 - Confidence in linking pages and managing content in a multi-page website.
+
+Update: I added a style.css file to introduce custom styling to the website. This update improves the visual presentation of the pages, enhancing readability and user experience while allowing me to practice applying external CSS styles to HTML elements.
