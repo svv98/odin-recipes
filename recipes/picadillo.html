@@ -4,44 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picadillo</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <h1>Picadillo</h1>
-    <img src="./images/picadillo.jpg" alt="Mexican dish picadillo" height="500" width="500"/>
 
-    <h3>Description</h3>
-    <p>
-        Mexican Picadillo is a comforting, hearty dish that brings together ground beef, vegetables, and rich tomato flavor, all simmered together to create a savory and satisfying meal. 
-        It's a versatile, one-pot dish that's perfect for serving with rice, tortillas, or even as a taco filling.
-    </p>    
+    <div class="recipe-title">
+        <img src="./images/picadillo.jpg" alt="Mexican dish picadillo"/>
+        <a class="title">Picadillo</a>
+        <div class="description">
+            <!--<h3>Description</h3>-->
+            <p>
+                <span>Mexican Picadillo</span> is a traditional and comforting dish made with ground beef, 
+                vegetables, and a savory tomato-based sauce. It's hearty, flavorful, and incredibly 
+                versatile. Perfect served with rice, in tortillas, on tostadas, or as a taco filling. 
+                While modern versions may include olives or raisins, the classic recipe keeps it simple, 
+                highlighting the natural flavors of the meat and vegetables. 
+                It's an easy, everyday meal that brings warmth and satisfaction to the table.
+            </p>
+        </div>    
+    </div>    
 
-    <h3>Ingredients</h3>
-    <ul>
-        <li>450g ground beef</li>
-        <li>1 medium onion, finely chopped</li>
-        <li>2 garlic cloves, minced</li>
-        <li>1 medium potato, peeled and diced</li>
-        <li>1 medium carrot, peeled and diced</li>
-        <li>75g peas</li>
-        <li>4 medium tomatoes, diced </li>
-        <li>1/2 tsp dried oregano</li>
-        <li>Olive oil</li>
-        <li>Salt and pepper to taste</li>
-    </ul>
+    <div class="recipe">
+        <a class="servings">Servings: 4</a>
 
-    <h3>Steps</h3>
-    <ol>
-        <li>Blend the tomatoes with the garlic cloves and water; set aside.</li>
-        <li>Place a large saucepan with the oil over the heat. Add the beef and onion and let them sauté.</li>
-        <li>Add the vegetables and continue to sauté the preparation, stirring constantly, until the vegetables are lightly cooked.</li>
-        <li>Pour the tomato and garlic sauce into the saucepan along with salt and pepper. Let the ground beef simmer for 15 minutes or until the vegetables are tender.</li>
-        <li>Garnish with fresh cilantro, if desired. Serve with rice, tortillas, or as a taco filling.</li>
-    </ol>
+        <div class="recipe-grid">
+            <div class="ingredients">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>450g ground beef</li>
+                    <li>1 medium onion, finely chopped</li>
+                    <li>2 garlic cloves, minced</li>
+                    <li>1 medium potato, peeled and diced</li>
+                    <li>1 medium carrot, peeled and diced</li>
+                    <li>75g peas</li>
+                    <li>4 medium tomatoes, diced </li>
+                    <li>1/2 tsp dried oregano</li>
+                    <li>Olive oil</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+            </div>
+
+            <div class="steps">
+                <h3>Steps</h3>
+                <ol>
+                    <li>Blend the tomatoes with the garlic cloves and water; set aside.</li>
+                    <li>Place a large saucepan with the oil over the heat. Add the beef and onion and let them sauté.</li>
+                    <li>Add the vegetables and continue to sauté the preparation, stirring constantly, until the vegetables are lightly cooked.</li>
+                    <li>Pour the tomato and garlic sauce into the saucepan along with salt and pepper. Let the ground beef simmer for 15 minutes or until the vegetables are tender.</li>
+                    <li>Garnish with fresh cilantro, if desired. Serve with rice, tortillas, or as a taco filling.</li>
+                </ol>
+            </div>
+        </div>            
+    </div>   
 
 
     <!--Return to homepage-->
-    <p>
-        <a href="../index.html">Home</a>
+    <p class="home">
+        <a href="../index.html">
+            <img src="../index-images/backhome.png"/>
+
+        </a>
+        <a id="home-text" href="../index.html">
+            Back To Home Page
+        </a>
     </p>
-</body>
 </html>
